@@ -33,7 +33,8 @@ class Owner
     return "I am a human."
   end
 
-  def pets(pets)
+  def pets
+    @pets
   end
 
 
