@@ -101,7 +101,6 @@ class Owner
         end
       end
     end
-    @pets.
   end
 
 
