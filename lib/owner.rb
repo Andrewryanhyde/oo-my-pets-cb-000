@@ -87,7 +87,10 @@ class Owner
         instance.each do |pet|
           pet.mood = "nervour"
           pet.clear
-    
+        end
+    end
+  end
+
   end
 
 
