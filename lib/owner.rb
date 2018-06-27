@@ -71,4 +71,17 @@ class Owner
       end
     end
   end
+
+  def feed_fish 
+    @pets.each do |species, instance| 
+      if species == :fishes 
+        instance.each do |fish|
+          fish.mood = "happy"
+        end
+      end
+    end
+  end
+
+
+  
 end
