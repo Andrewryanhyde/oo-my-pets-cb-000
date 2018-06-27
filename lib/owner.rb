@@ -87,17 +87,21 @@ class Owner
       if species == :fishes
         instance.each do |fish|
           fish.mood = "nervous"
+          fish.delete
         end
       elsif species == :cats
         instance.each do |cat|
           cat.mood = "nervous"
+          cat.delete
         end
       else species == :dogs
         instance.each do |dog|
           dog.mood = "nervous"
+          dog.delete
         end
       end
     end
+    @pets.
   end
 
 
