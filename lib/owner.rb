@@ -1,5 +1,5 @@
 class Owner
-  attr_accessor :name, :human
+  attr_accessor :name, :species
 
   @@all = []
   @@counter = 0
