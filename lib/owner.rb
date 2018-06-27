@@ -90,11 +90,11 @@ class Owner
         end
       elsif species == :cats
         instance.each do |cat|
-          fish.mood = "nervous"
+          cat.mood = "nervous"
         end
       else species == :dogs
         instance.each do |dog|
-          fish.mood = "nervous"
+          dog.mood = "nervous"
         end
       end
     end
