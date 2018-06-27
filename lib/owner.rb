@@ -1,11 +1,12 @@
 class Owner
-  attr_accessor :name
+  attr_accessor :name, :human
 
   @@all = []
   @@counter = 0
 
   def initialize(name)
     @name = name
+    @species = human
     @@all << self
     @@counter += 1
   end
@@ -21,4 +22,6 @@ class Owner
   def self.count
     @@counter
   end
+
+  def 
 end
