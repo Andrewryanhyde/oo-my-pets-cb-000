@@ -1,10 +1,11 @@
 class Owner
-  attr_reader :name
-  attr_accessor :mood
+  attr_accessor :name
+
+  @@counter = 0
 
   def initialize(name)
     @name = name
-    @mood = "nervous"
+    @@counter = +=1
   end
 
 end
