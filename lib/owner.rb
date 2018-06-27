@@ -72,9 +72,9 @@ class Owner
     end
   end
 
-  def feed_fish 
-    @pets.each do |species, instance| 
-      if species == :fishes 
+  def feed_fish
+    @pets.each do |species, instance|
+      if species == :fishes
         instance.each do |fish|
           fish.mood = "happy"
         end
@@ -83,5 +83,5 @@ class Owner
   end
 
 
-  
+
 end
