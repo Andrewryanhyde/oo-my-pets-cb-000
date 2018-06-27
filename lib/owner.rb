@@ -23,5 +23,5 @@ class Owner
     @@counter
   end
 
-  def
+
 end
