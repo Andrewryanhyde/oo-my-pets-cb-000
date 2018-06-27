@@ -82,7 +82,7 @@ class Owner
     end
   end
 
-  def sell_pets 
+  def sell_pets
     @pets.each do |species, instance|
       if species == :fishes
         instance.each do |fish|
@@ -99,7 +99,7 @@ class Owner
       end
     end
   end
-      
+
 
 
 
