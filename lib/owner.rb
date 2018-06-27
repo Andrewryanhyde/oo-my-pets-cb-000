@@ -60,6 +60,12 @@ class Owner
         end
       end
     end
-
   end
+
+  def play_with_cats 
+    @pets.each do |speciel, instance| 
+      if species == :cats 
+        instance.each do |cat|
 end
+
+        
