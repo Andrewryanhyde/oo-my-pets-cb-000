@@ -84,23 +84,10 @@ class Owner
 
   def sell_pets
     @pets.each do |species, instance|
-      if species == :fishes
-        instance.each do |fish|
-          fish.mood = "nervous"
-          fish.delete
-        end
-      elsif species == :cats
-        instance.each do |cat|
-          cat.mood = "nervous"
-          cat.delete
-        end
-      else species == :dogs
-        instance.each do |dog|
-          dog.mood = "nervous"
-          dog.delete
-        end
-      end
-    end
+        instance.each do |pet|
+          pet.mood = "nervour"
+          pet.clear
+    
   end
 
 
