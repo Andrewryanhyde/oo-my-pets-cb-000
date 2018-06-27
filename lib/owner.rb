@@ -15,10 +15,10 @@ class Owner
   end
 
   def self.reset_all
-    @@counter
+    @@counter = 0
   end
 
-  def self.count 
+  def self.count
     @@counter
   end
 end
