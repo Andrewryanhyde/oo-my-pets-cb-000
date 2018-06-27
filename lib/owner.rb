@@ -8,4 +8,8 @@ class Owner
     @@counter = +=1
   end
 
+  def all
+    @@all?
+  end
+
 end
