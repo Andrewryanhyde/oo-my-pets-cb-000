@@ -86,8 +86,8 @@ class Owner
     @pets.collect do |species, instance|
         instance.each do |pet|
           pet.mood = "nervous"
-          instance.clear
         end
+        instance.clear
     end
   end
 
